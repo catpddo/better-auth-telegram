@@ -66,6 +66,7 @@ export interface TelegramOIDCClaims {
   picture?: string;
   preferred_username?: string;
   sub: string;
+  id: string;
 }
 
 /**
